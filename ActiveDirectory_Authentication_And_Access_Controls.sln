@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ActiveDirectory_Authentication_And_Access_Controls", "ActiveDirectory_Authentication_And_Access_Controls\ActiveDirectory_Authentication_And_Access_Controls.csproj", "{F8C3C9EF-3781-40FF-ADE1-D81E0BEFBD2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8F9D4A8E-65DC-47DA-81B5-6B7B7B537449}"
+	ProjectSection(SolutionItems) = preProject
+		Images\AD_DS_Group_Management.png = Images\AD_DS_Group_Management.png
+		README.MD = README.MD
+		Images\AD_DS_User_Management.png = Images\AD_DS_User_Management.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8C3C9EF-3781-40FF-ADE1-D81E0BEFBD2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C3C9EF-3781-40FF-ADE1-D81E0BEFBD2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C3C9EF-3781-40FF-ADE1-D81E0BEFBD2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C3C9EF-3781-40FF-ADE1-D81E0BEFBD2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70DA03D1-C400-4776-BF79-8B1696383822}
+	EndGlobalSection
+EndGlobal
