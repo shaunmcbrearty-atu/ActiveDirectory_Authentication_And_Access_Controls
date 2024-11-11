@@ -10,8 +10,8 @@ Note that the code sample is pre-configured to utilse the following settings:
 Active Directory Domain Services has been pre-installed and pre-configured for you on the `SSD_Assignment` virtual machine that has been provided to you as part of the assignment for the module (available on [Microsoft Azure Lab Services](https://labs.azure.com/)).  In addition, the `Bank Teller` user group has also been pre-created for you.
 
 If you wish to use the code sample 'as-is', you must:
-- Manually create the `Test` User Account using the `Active Directory Users and Computers` application - see instructions below.
-- Manually add the `Test` User Account to the `Bank Teller` User Group using the `Active Directory Users and Computers` application - see instructions below.
+- Manually create the `Test` User Account using the `Active Directory Users and Computers` application - [see instructions below](https://github.com/shaunmcbrearty-atu/ActiveDirectory_Authentication_And_Access_Controls?tab=readme-ov-file#user-management-in-active-directory-domain-services).
+- Manually add the `Test` User Account to the `Bank Teller` User Group using the `Active Directory Users and Computers` application - [see instructions below](https://github.com/shaunmcbrearty-atu/ActiveDirectory_Authentication_And_Access_Controls?tab=readme-ov-file#group-member-management-in-active-directory-domain-services).
 
 ## User Management in Active Directory Domain Services
 
@@ -42,4 +42,4 @@ This can be done as follows:
 
 By default, Active Directory Domain Services does not maintain a record of Successful/Failed logon attempts. 
 
-Logging of this information can be enabled by configuring the settings outlined in the following article: https://www.lepide.com/blog/audit-successful-logon-logoff-and-failed-logons-in-activedirectory/
+Logging of this information can be enabled by configuring the settings outlined in the article available at the following [link](https://www.lepide.com/blog/audit-successful-logon-logoff-and-failed-logons-in-activedirectory/).
