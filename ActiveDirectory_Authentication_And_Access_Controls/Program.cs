@@ -24,7 +24,7 @@ public class Program
         bool isGroupMember = false;
         
         if(userPrincipal != null)
-            userPrincipal.IsMemberOf(domainContext, IdentityType.SamAccountName, groupName);//Throws Exception If User Principal Is Null
+            isGroupMember = userPrincipal.IsMemberOf(domainContext, IdentityType.SamAccountName, groupName);//Throws Exception If User Principal Is Null
 
         //Output
 
