@@ -21,11 +21,14 @@ public class Program
         //Verify Group Membership Of User Account
 
         UserPrincipal userPrincipal = UserPrincipal.FindByIdentity(domainContext, IdentityType.SamAccountName, username);
-        bool isGroupMember = userPrincipal.IsMemberOf(domainContext, IdentityType.SamAccountName, groupName);//Throws Exception Of Invalid Group Name Supplied
-       
+        bool isGroupMember = false;
+        
+        if(userPrincipal != null)
+            userPrincipal.IsMemberOf(domainContext, IdentityType.SamAccountName, groupName);//Throws Exception If User Principal Is Null
+
         //Output
 
-        if(validCreds && isGroupMember)
+        if (validCreds && isGroupMember)
         {
             Console.WriteLine("User Is Authorized To Perform Access Control Protected Action");
         }
