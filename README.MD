@@ -36,10 +36,3 @@ This can be done as follows:
 - See screenshot below with relevant information highlighted.
 
 - <img src='/Images/AD_DS_Group_Management.png' />
-
-
-## Login Auditing
-
-By default, Active Directory Domain Services does not maintain a record of Successful/Failed logon attempts. 
-
-Logging of this information can be enabled by configuring the settings outlined in the article available at the following [link](https://www.lepide.com/blog/audit-successful-logon-logoff-and-failed-logons-in-activedirectory/).
