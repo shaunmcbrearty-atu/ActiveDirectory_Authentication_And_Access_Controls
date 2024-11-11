@@ -32,7 +32,7 @@ This can be done as follows:
 - Right-click on the desired User Account and select the `Properties` option from the resulting menu.
 - In the resulting `User Properties` window, select the `Member Of` tab, and then select the `Add` button.
 - In the resulting `Select Groups` window, enter the name of the desired Group in the text field labelled _'Enter the object names to select'_ and select the `Check Names` button. This in turn will search the Directory for any groups that contain the text value inputted.
-- If multiple groups contain the text values inputted, the `Multiple Names Found` window will be displayed. Choose the desired Group Name from the list of names displayed and select the `OK` button.
+- If multiple groups contain the text value inputted, the `Multiple Names Found` window will be displayed. Choose the desired Group Name from the list of names displayed and select the `OK` button.
 - See screenshot below with relevant information highlighted.
 
 - <img src='/Images/AD_DS_Group_Management.png' />
